@@ -12,14 +12,14 @@ importers:
         specifier: 4.3.20
         version: 4.3.20
       browserstack-local:
-        specifier: 1.5.12
-        version: 1.5.12
+        specifier: 1.5.13
+        version: 1.5.13
       chai:
         specifier: 4.5.0
         version: 4.5.0
       codeceptjs:
-        specifier: 3.7.7
-        version: 3.7.7(@babel/core@7.29.0)(@jest/environment@29.7.0)(@jest/types@29.6.3)(@types/node@25.5.0)(expect@29.7.0)(jest-environment-node@29.7.0)(react@18.2.0)
+        specifier: 3.7.9
+        version: 3.7.9(@babel/core@7.29.0)(@jest/environment@29.7.0)(@jest/types@29.6.3)(@types/node@25.5.0)(expect@29.7.0)(jest-environment-node@29.7.0)(react@18.2.0)
       dotenv:
         specifier: 16.6.1
         version: 16.6.1
@@ -38,7 +38,7 @@ importers:
     devDependencies:
       codeceptjs-bshelper:
         specifier: 3.1.3
-        version: 3.1.3(codeceptjs@3.7.7(@babel/core@7.29.0)(@jest/environment@29.7.0)(@jest/types@29.6.3)(@types/node@25.5.0)(expect@29.7.0)(jest-environment-node@29.7.0)(react@18.2.0))
+        version: 3.1.3(codeceptjs@3.7.9(@babel/core@7.29.0)(@jest/environment@29.7.0)(@jest/types@29.6.3)(@types/node@25.5.0)(expect@29.7.0)(jest-environment-node@29.7.0)(react@18.2.0))
 
 packages:
 
@@ -222,8 +222,8 @@ packages:
   '@cucumber/gherkin@39.0.0':
     resolution: {integrity: sha512-6tCR0ZIF0tVkd2iBqA3IcYUovwdpJM6oorACisgIdDJMsKufOq962qk9jncRUi5Bja1kEAAEKpxcRtvnp9k/dg==}
 
-  '@cucumber/messages@32.2.0':
-    resolution: {integrity: sha512-oYp1dgL2TByYWL51Z+rNm+/mFtJhiPU9WS03goes9EALb8d9GFcXRbG1JluFLFaChF1YDqIzLac0kkC3tv1DjQ==}
+  '@cucumber/messages@32.3.1':
+    resolution: {integrity: sha512-yNQq1KoXRYaEKrWMFmpUQX7TdeQuU9jeGgJAZ3dArTsC/T4NpJ6DnqaJIIgwPnz/wtQIQTNX7/h0rOuF5xY4qQ==}
 
   '@dabh/diagnostics@2.0.8':
     resolution: {integrity: sha512-R4MSXTVnuMzGD7bzHdW2ZhhdPC/igELENcq5IjEverBvq5hn1SXCWcsi6eSsdWP0/Ur+SItRRjAktmdoX/8R/Q==}
@@ -543,8 +543,8 @@ packages:
       detox: '>=20.33.0'
       expect: 29.x.x || 28.x.x || ^27.2.5
 
-  '@xmldom/xmldom@0.9.8':
-    resolution: {integrity: sha512-p96FSY54r+WJ50FIOsCOjyj/wavs8921hG5+kVMmZgKcvIKxMXHTrjNJvRgWa/zuX3B6t2lijLNFaOyuxUH+2A==}
+  '@xmldom/xmldom@0.9.10':
+    resolution: {integrity: sha512-A9gOqLdi6cV4ibazAjcQufGj0B1y/vDqYrcuP6d/6x8P27gRS8643Dj9o1dEKtB6O7fwxb2FgBmJS2mX7gpvdw==}
     engines: {node: '>=14.6'}
 
   abbrev@2.0.0:
@@ -668,8 +668,8 @@ packages:
   axios@0.21.4:
     resolution: {integrity: sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==}
 
-  axios@1.13.6:
-    resolution: {integrity: sha512-ChTCHMouEe2kn713WHbQGcuYrr6fXTBiu460OTwWrWob16g1bXn4vtz07Ope7ewMozJAnEquLk5lWQWtBig9DQ==}
+  axios@1.15.1:
+    resolution: {integrity: sha512-WOG+Jj8ZOvR0a3rAn+Tuf1UQJRxw5venr6DgdbJzngJE3qG7X0kL83CZGpdHMxEm+ZK3seAbvFsw4FfOfP9vxg==}
 
   babel-jest@29.7.0:
     resolution: {integrity: sha512-BrvGY3xZSwEcCzKvKsCi2GgHqDqsYkOP4/by5xCgIwGXQxIEh+8ew3gmrE1y7XRR6LHZIj6yLYnUi/mm2KXKBg==}
@@ -751,8 +751,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
 
-  browserstack-local@1.5.12:
-    resolution: {integrity: sha512-xrdpG4rw6Ktxa/gM8x0esnohFlw0V33bQiUX08rrHWKbnJAG57KTHGvJ4mvgc9eRL63pEKal+WuNDg3vEUz4hA==}
+  browserstack-local@1.5.13:
+    resolution: {integrity: sha512-7helY+Ms3ss4BtIQZTIyshdAFZSvS9A7ZpEB9stRaobeZ9BM1BkJFTuMakQNTOj78llv0+/qDI5Ak+bkGWV1xg==}
 
   bser@2.1.1:
     resolution: {integrity: sha512-gQxTNE/GAfIIrmHLUE3oJyp5FO6HRBfhjnw4/wMmA63ZGDJnWBmgY/lyQBpnDUkGmAhbSe39tx2d/iTOAfglwQ==}
@@ -908,8 +908,8 @@ packages:
     peerDependencies:
       codeceptjs: ^3.3.0
 
-  codeceptjs@3.7.7:
-    resolution: {integrity: sha512-S9tOm2akaxEsKfwT2xHA0wawRBt4LP+anUc94xofBr3IvbcjM3Jg1a4N6zB+0fZ6yN780t4HMRblR211Tc10JQ==}
+  codeceptjs@3.7.9:
+    resolution: {integrity: sha512-NHvzhAXxLhEfo/bMa5liKpzB7BM+bGd3D3aM0dLUYjCvsPV8zO+W1I2JRjPjtJR5qdkW4/gb0KBLhCpkzyaetw==}
     engines: {node: '>=16.0', npm: '>=5.6.0'}
     hasBin: true
 
@@ -977,8 +977,8 @@ packages:
     resolution: {integrity: sha512-ZqRXc+tZukToSNmh5C2iWMSoV3X1YUcPbqEM4DkEG5tNQXrQUZCNVGGv3IuicnkMtPfGf3Xtp8WCXs295iQ1pQ==}
     engines: {node: '>= 0.10.0'}
 
-  console-grid@2.2.3:
-    resolution: {integrity: sha512-+mecFacaFxGl+1G31IsCx41taUXuW2FxX+4xIE0TIPhgML+Jb9JFcBWGhhWerd1/vhScubdmHqTwOhB0KCUUAg==}
+  console-grid@2.2.4:
+    resolution: {integrity: sha512-OLjCRTiHhOpTRo9lQp/2FgJDyq5uQHwkEmVJulEnQ6JVf27oKKzXHZnNOv/e72V4++UdMZCrDWtvXW5sx4lyQg==}
 
   convert-source-map@2.0.0:
     resolution: {integrity: sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg==}
@@ -1183,8 +1183,8 @@ packages:
   ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
 
-  eight-colors@1.3.1:
-    resolution: {integrity: sha512-7nXPYDeKh6DgJDR/mpt2G7N/hCNSGwwoPVmoI3+4TEwOb07VFN1WMPG0DFf6nMEjrkgdj8Og7l7IaEEk3VE6Zg==}
+  eight-colors@1.3.3:
+    resolution: {integrity: sha512-4B54S2Qi4pJjeHmCbDIsveQZWQ/TSSQng4ixYJ9/SYHHpeS5nYK0pzcHvWzWUfRsvJQjwoIENhAwqg59thQceg==}
 
   electron-to-chromium@1.5.321:
     resolution: {integrity: sha512-L2C7Q279W2D/J4PLZLk7sebOILDSWos7bMsMNN06rK482umHUrh/3lM8G7IlHFOYip2oAg5nha1rCMxr/rs6ZQ==}
@@ -1375,6 +1375,10 @@ packages:
     resolution: {integrity: sha512-gIXjKqtFuWEgzFRJA9WCQeSJLZDjgJUOMCMzxtvFq/37KojM1BFGufqsCy0r4qSQmYLsZYMeyRqzIWOMup03sw==}
     engines: {node: '>=14'}
 
+  foreground-child@4.0.3:
+    resolution: {integrity: sha512-yeXZaNbCBGaT9giTpLPBdtedzjwhlJBUoL/R4BVQU5mn0TQXOHwVIl1Q2DMuBIdNno4ktA1abZ7dQFVxD6uHxw==}
+    engines: {node: '>=16'}
+
   form-data@4.0.5:
     resolution: {integrity: sha512-8RipRLol37bNs2bhoV67fiTEvdTrbMUYcFTiy3+wuuOnUog2QBHCZWXDRijWQfAkhBj2Uf5UnVaiWwA5vdd82w==}
     engines: {node: '>= 6'}
@@ -1405,8 +1409,8 @@ packages:
     resolution: {integrity: sha512-2Sp1hWuO8m5fqeFDusyhKqYPT+7rGLw34N3qonDcdRP8+n7M7Gl/yKp/q7oCxnnJ6pWCectOmLFJpsMU/++KrQ==}
     engines: {node: '>=8.3.0'}
 
-  fuse.js@7.1.0:
-    resolution: {integrity: sha512-trLf4SzuuUxfusZADLINj+dE8clK1frKdmqiJNb1Es75fmI5oY6X2mxLVUciLLjxqw/xr72Dhy+lER6dGd02FQ==}
+  fuse.js@7.4.2:
+    resolution: {integrity: sha512-LVbzjD4WA6UP5B1UnP8wuaXJiLnqMdM/E4fiJXTJ5haJ5b/MBNsK29h2fm6swEoQaVQjvYFWKLE2RanyZIoRVQ==}
     engines: {node: '>=10'}
 
   gensync@1.0.0-beta.2:
@@ -1722,8 +1726,8 @@ packages:
     resolution: {integrity: sha512-eIz2msL/EzL9UFTFFx7jBTkeZfku0yUAyZZZmJ93H2TYEiroIx2PQjEXcwYtYl8zXCxb+PAmA2hLIt/6ZEkPHw==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
 
-  joi@18.0.2:
-    resolution: {integrity: sha512-RuCOQMIt78LWnktPoeBL0GErkNaJPTBGcYuyaBvUOQSpcpcLfWrHPPihYdOGbV5pam9VTWbeoF7TsGiHugcjGA==}
+  joi@18.1.2:
+    resolution: {integrity: sha512-rF5MAmps5esSlhCA+N1b6IYHDw9j/btzGaqfgie522jS02Ju/HXBxamlXVlKEHAxoMKQL77HWI8jlqWsFuekZA==}
     engines: {node: '>= 20'}
 
   js-beautify@1.15.4:
@@ -1891,8 +1895,8 @@ packages:
   lru-cache@5.1.1:
     resolution: {integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==}
 
-  lz-utils@2.1.0:
-    resolution: {integrity: sha512-CMkfimAypidTtWjNDxY8a1bc1mJdyEh04V2FfEQ5Zh8Nx4v7k850EYa+dOWGn9hKG5xOyHP5MkuduAZCTHRvJw==}
+  lz-utils@2.1.1:
+    resolution: {integrity: sha512-d3Thjos0PSJQAoyMj6vipSSrtrRHS7DImqUNR8x9NW3+zQIftPIbMJAWhi5nPdg5Q9zHz6lxtN8kp/VdMlhi/Q==}
 
   make-dir@4.0.0:
     resolution: {integrity: sha512-hXdUTZYIVOt1Ex//jAQi+wTZZpUpwBj/0QsOzqegb3rGMMeJiSEu5xLHnYfBrRV4RH2+OCSOO95Is/7x1WJ4bw==}
@@ -2067,12 +2071,12 @@ packages:
   moment@2.30.1:
     resolution: {integrity: sha512-uEmtNhbDOrWPFS+hdjFCBfy9f2YoyzRpwcl+DqpC6taX21FzsTLQVbMV/W7PzNSX6x/bhC1zA3c2UQ5NzH6how==}
 
-  monocart-coverage-reports@2.12.9:
-    resolution: {integrity: sha512-vtFqbC3Egl4nVa1FSIrQvMPO6HZtb9lo+3IW7/crdvrLNW2IH8lUsxaK0TsKNmMO2mhFWwqQywLV2CZelqPgwA==}
+  monocart-coverage-reports@2.12.11:
+    resolution: {integrity: sha512-yo4/FdUdFIWoc9OjhBZCNXM95tYHS4e8nov9Q3AGbpvteT/W5aQSc4B+Q0nhmedZFvjvm3BUH/Xu9GT2n/0wkw==}
     hasBin: true
 
-  monocart-locator@1.0.2:
-    resolution: {integrity: sha512-v8W5hJLcWMIxLCcSi/MHh+VeefI+ycFmGz23Froer9QzWjrbg4J3gFJBuI/T1VLNoYxF47bVPPxq8ZlNX4gVCw==}
+  monocart-locator@1.0.3:
+    resolution: {integrity: sha512-pe29W2XAoA1WQmZZqxXoP7s06ZEXUhcb81086v68cqjk1HnVL7Q/iU/WJnnetxjPcLqwb4qG8vaSGUOMQU602g==}
 
   ms@2.0.0:
     resolution: {integrity: sha512-Tpp60P6IUJDTuOq/5Z8cdskzJujfwqfOTkrwIwj7IRISpnkJnT6SyJ4PCPnGMoFjC9ddhal5KVIYtAt97ix05A==}
@@ -2323,6 +2327,10 @@ packages:
 
   proxy-from-env@1.1.0:
     resolution: {integrity: sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==}
+
+  proxy-from-env@2.1.0:
+    resolution: {integrity: sha512-cJ+oHTW1VAEa8cJslgmUZrc+sjRKgAKl3Zyse6+PV38hZe/V6Z14TbCuXcan9F9ghlz4QrFr2c92TNF82UkYHA==}
+    engines: {node: '>=10'}
 
   pump@3.0.4:
     resolution: {integrity: sha512-VS7sjc6KR7e1ukRFhQSY5LM2uBWAUPiOPa/A3mkKmiMwSmRFUITt0xuj+/lesgnCv+dPIEYlkzrcyXgquIHMcA==}
@@ -2792,6 +2800,7 @@ packages:
 
   uuid@9.0.1:
     resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   v8-compile-cache-lib@3.0.1:
@@ -3170,9 +3179,9 @@ snapshots:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.28.5
 
-  '@codeceptjs/configure@1.0.6(codeceptjs@3.7.7(@babel/core@7.29.0)(@jest/environment@29.7.0)(@jest/types@29.6.3)(@types/node@25.5.0)(expect@29.7.0)(jest-environment-node@29.7.0)(react@18.2.0))':
+  '@codeceptjs/configure@1.0.6(codeceptjs@3.7.9(@babel/core@7.29.0)(@jest/environment@29.7.0)(@jest/types@29.6.3)(@types/node@25.5.0)(expect@29.7.0)(jest-environment-node@29.7.0)(react@18.2.0))':
     dependencies:
-      codeceptjs: 3.7.7(@babel/core@7.29.0)(@jest/environment@29.7.0)(@jest/types@29.6.3)(@types/node@25.5.0)(expect@29.7.0)(jest-environment-node@29.7.0)(react@18.2.0)
+      codeceptjs: 3.7.9(@babel/core@7.29.0)(@jest/environment@29.7.0)(@jest/types@29.6.3)(@types/node@25.5.0)(expect@29.7.0)(jest-environment-node@29.7.0)(react@18.2.0)
       lodash.merge: 4.6.2
       lodash.mergewith: 4.6.2
 
@@ -3215,9 +3224,9 @@ snapshots:
 
   '@cucumber/gherkin@39.0.0':
     dependencies:
-      '@cucumber/messages': 32.2.0
+      '@cucumber/messages': 32.3.1
 
-  '@cucumber/messages@32.2.0':
+  '@cucumber/messages@32.3.1':
     dependencies:
       class-transformer: 0.5.1
       reflect-metadata: 0.2.2
@@ -3582,7 +3591,7 @@ snapshots:
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 18.19.130
+      '@types/node': 25.5.0
     optional: true
 
   '@wdio/config@7.40.0(typescript@5.9.3)':
@@ -3642,7 +3651,7 @@ snapshots:
       expect: 29.7.0
     optional: true
 
-  '@xmldom/xmldom@0.9.8': {}
+  '@xmldom/xmldom@0.9.10': {}
 
   abbrev@2.0.0: {}
 
@@ -3781,11 +3790,11 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  axios@1.13.6:
+  axios@1.15.1:
     dependencies:
       follow-redirects: 1.15.11
       form-data: 4.0.5
-      proxy-from-env: 1.1.0
+      proxy-from-env: 2.1.0
     transitivePeerDependencies:
       - debug
 
@@ -3908,7 +3917,7 @@ snapshots:
       update-browserslist-db: 1.2.3(browserslist@4.28.1)
     optional: true
 
-  browserstack-local@1.5.12:
+  browserstack-local@1.5.13:
     dependencies:
       agent-base: 6.0.2
       https-proxy-agent: 5.0.1
@@ -4113,27 +4122,27 @@ snapshots:
 
   clone@1.0.4: {}
 
-  codeceptjs-bshelper@3.1.3(codeceptjs@3.7.7(@babel/core@7.29.0)(@jest/environment@29.7.0)(@jest/types@29.6.3)(@types/node@25.5.0)(expect@29.7.0)(jest-environment-node@29.7.0)(react@18.2.0)):
+  codeceptjs-bshelper@3.1.3(codeceptjs@3.7.9(@babel/core@7.29.0)(@jest/environment@29.7.0)(@jest/types@29.6.3)(@types/node@25.5.0)(expect@29.7.0)(jest-environment-node@29.7.0)(react@18.2.0)):
     dependencies:
       axios: 0.21.4
       chalk: 4.1.2
-      codeceptjs: 3.7.7(@babel/core@7.29.0)(@jest/environment@29.7.0)(@jest/types@29.6.3)(@types/node@25.5.0)(expect@29.7.0)(jest-environment-node@29.7.0)(react@18.2.0)
+      codeceptjs: 3.7.9(@babel/core@7.29.0)(@jest/environment@29.7.0)(@jest/types@29.6.3)(@types/node@25.5.0)(expect@29.7.0)(jest-environment-node@29.7.0)(react@18.2.0)
       tinyurl: 1.1.7
       typescript: 4.9.5
     transitivePeerDependencies:
       - debug
 
-  codeceptjs@3.7.7(@babel/core@7.29.0)(@jest/environment@29.7.0)(@jest/types@29.6.3)(@types/node@25.5.0)(expect@29.7.0)(jest-environment-node@29.7.0)(react@18.2.0):
+  codeceptjs@3.7.9(@babel/core@7.29.0)(@jest/environment@29.7.0)(@jest/types@29.6.3)(@types/node@25.5.0)(expect@29.7.0)(jest-environment-node@29.7.0)(react@18.2.0):
     dependencies:
-      '@codeceptjs/configure': 1.0.6(codeceptjs@3.7.7(@babel/core@7.29.0)(@jest/environment@29.7.0)(@jest/types@29.6.3)(@types/node@25.5.0)(expect@29.7.0)(jest-environment-node@29.7.0)(react@18.2.0))
+      '@codeceptjs/configure': 1.0.6(codeceptjs@3.7.9(@babel/core@7.29.0)(@jest/environment@29.7.0)(@jest/types@29.6.3)(@types/node@25.5.0)(expect@29.7.0)(jest-environment-node@29.7.0)(react@18.2.0))
       '@codeceptjs/helper': 2.0.4
       '@cucumber/cucumber-expressions': 19.0.0
       '@cucumber/gherkin': 39.0.0
-      '@cucumber/messages': 32.2.0
-      '@xmldom/xmldom': 0.9.8
+      '@cucumber/messages': 32.3.1
+      '@xmldom/xmldom': 0.9.10
       acorn: 8.16.0
       arrify: 3.0.0
-      axios: 1.13.6
+      axios: 1.15.1
       chalk: 4.1.2
       cheerio: 1.2.0
       chokidar: 4.0.3
@@ -4146,18 +4155,18 @@ snapshots:
       figures: 3.2.0
       fn-args: 4.0.0
       fs-extra: 11.3.4
-      fuse.js: 7.1.0
+      fuse.js: 7.4.2
       glob: 11.1.0
       html-minifier-terser: 7.2.0
       inquirer: 8.2.7(@types/node@25.5.0)
       invisi-data: 1.2.0
-      joi: 18.0.2
+      joi: 18.1.2
       js-beautify: 1.15.4
       lodash.clonedeep: 4.5.0
       lodash.merge: 4.6.2
       mkdirp: 3.0.1
       mocha: 11.7.5
-      monocart-coverage-reports: 2.12.9
+      monocart-coverage-reports: 2.12.11
       ms: 2.1.3
       multer: 2.1.1
       ora-classic: 5.4.2
@@ -4259,7 +4268,7 @@ snapshots:
       - supports-color
     optional: true
 
-  console-grid@2.2.3: {}
+  console-grid@2.2.4: {}
 
   convert-source-map@2.0.0:
     optional: true
@@ -4502,7 +4511,7 @@ snapshots:
   ee-first@1.1.1:
     optional: true
 
-  eight-colors@1.3.1: {}
+  eight-colors@1.3.3: {}
 
   electron-to-chromium@1.5.321:
     optional: true
@@ -4613,7 +4622,7 @@ snapshots:
 
   extract-zip@2.0.1:
     dependencies:
-      debug: 4.3.4
+      debug: 4.4.3(supports-color@8.1.1)
       get-stream: 5.2.0
       yauzl: 2.10.0
     optionalDependencies:
@@ -4693,6 +4702,10 @@ snapshots:
       cross-spawn: 7.0.6
       signal-exit: 4.1.0
 
+  foreground-child@4.0.3:
+    dependencies:
+      signal-exit: 4.1.0
+
   form-data@4.0.5:
     dependencies:
       asynckit: 0.4.0
@@ -4722,7 +4735,7 @@ snapshots:
   funpermaproxy@1.1.0:
     optional: true
 
-  fuse.js@7.1.0: {}
+  fuse.js@7.4.2: {}
 
   gensync@1.0.0-beta.2:
     optional: true
@@ -4891,7 +4904,7 @@ snapshots:
   https-proxy-agent@5.0.0:
     dependencies:
       agent-base: 6.0.2
-      debug: 4.3.2
+      debug: 4.4.3(supports-color@8.1.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -5144,7 +5157,7 @@ snapshots:
       supports-color: 8.1.1
     optional: true
 
-  joi@18.0.2:
+  joi@18.1.2:
     dependencies:
       '@hapi/address': 5.1.1
       '@hapi/formula': 3.0.2
@@ -5311,7 +5324,7 @@ snapshots:
       yallist: 3.1.1
     optional: true
 
-  lz-utils@2.1.0: {}
+  lz-utils@2.1.1: {}
 
   make-dir@4.0.0:
     dependencies:
@@ -5617,22 +5630,22 @@ snapshots:
   moment@2.30.1:
     optional: true
 
-  monocart-coverage-reports@2.12.9:
+  monocart-coverage-reports@2.12.11:
     dependencies:
       acorn: 8.16.0
       acorn-loose: 8.5.2
       acorn-walk: 8.3.5
       commander: 14.0.3
-      console-grid: 2.2.3
-      eight-colors: 1.3.1
-      foreground-child: 3.3.1
+      console-grid: 2.2.4
+      eight-colors: 1.3.3
+      foreground-child: 4.0.3
       istanbul-lib-coverage: 3.2.2
       istanbul-lib-report: 3.0.1
       istanbul-reports: 3.2.0
-      lz-utils: 2.1.0
-      monocart-locator: 1.0.2
+      lz-utils: 2.1.1
+      monocart-locator: 1.0.3
 
-  monocart-locator@1.0.2: {}
+  monocart-locator@1.0.3: {}
 
   ms@2.0.0: {}
 
@@ -5901,6 +5914,8 @@ snapshots:
   proto-list@1.2.4: {}
 
   proxy-from-env@1.1.0: {}
+
+  proxy-from-env@2.1.0: {}
 
   pump@3.0.4:
     dependencies:
